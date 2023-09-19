@@ -17,7 +17,7 @@ sudo bash -c 'echo "libmali.so" > /etc/OpenCL/vendors/mali.icd'
 pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
 ```
 
-### Download ArmNN libraries:
+### Download ArmNN libraries
 ```shell
 wget -O ArmNN-aarch64.tgz https://github.com/ARM-software/armnn/releases/download/v23.08/ArmNN-linux-aarch64.tar.gz
 mkdir libs
