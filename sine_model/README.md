@@ -13,6 +13,12 @@ Keras==2.6.0
 Mathplotlib==3.6.0
 ```
 
+## Add symlinks for libraries
+```shell
+sudo ln ../libs/libarmnnDelegate.so.29 libarmnnDelegate.so.29
+sudo ln ../libs/libarmnn.so.33 libarmnn.so.33
+```
+
 ### Run the example
 ```shell
 python3 run_inference.py
