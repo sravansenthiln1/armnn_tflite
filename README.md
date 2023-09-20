@@ -5,6 +5,11 @@
 sudo apt-get install python3-pip
 ```
 
+### Install necessary python packages
+```shell
+pip3 install numpy pillow
+```
+
 ### Install the TFLite runtime interpreter
 ```shell
 pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime

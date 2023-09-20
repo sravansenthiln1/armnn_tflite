@@ -2,7 +2,7 @@
 This example uses the [mobilenet_v1 model](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) 
 to showcase the working of TFLite delegate running with ArmNN acceleration.
 
-## Add symlinks for libraries
+### Add symlinks for libraries
 ```shell
 sudo ln ../libs/libarmnnDelegate.so.29.0 libarmnnDelegate.so.29
 sudo ln ../libs/libarmnn.so.33.0 libarmnn.so.33

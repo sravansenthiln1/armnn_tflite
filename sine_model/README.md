@@ -13,7 +13,7 @@ Keras==2.6.0
 Mathplotlib==3.6.0
 ```
 
-## Add symlinks for libraries
+### Add symlinks for libraries
 ```shell
 sudo ln ../libs/libarmnnDelegate.so.29.0 libarmnnDelegate.so.29
 sudo ln ../libs/libarmnn.so.33.0 libarmnn.so.33
