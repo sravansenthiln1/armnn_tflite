@@ -5,13 +5,6 @@
 sudo apt-get install git wget unzip zip python3 python3-pip
 ```
 
-### Setup OpenCL
-```
-sudo apt-get install –y ocl-icd-opencl-dev
-sudo mkdir -p /etc/OpenCL/vendors/
-sudo bash -c 'echo "libmali.so" > /etc/OpenCL/vendors/mali.icd'
-```
-
 ### Install the TFLite runtime interpreter
 ```shell
 pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
