@@ -1,6 +1,6 @@
 # ArmNN TFLite
 
-### Get the necessary system packages
+### Install pip
 ```shell
 sudo apt-get install python3-pip
 ```
