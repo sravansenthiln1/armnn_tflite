@@ -2,7 +2,7 @@
 
 ### Get the necessary system packages
 ```shell
-sudo apt-get install git wget unzip zip python3 python3-pip
+sudo apt-get install python3-pip
 ```
 
 ### Install the TFLite runtime interpreter
