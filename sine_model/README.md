@@ -2,7 +2,7 @@
 This example uses a basic Neural Network that predicts the value of sin(x) 
 to showcase the working of TFLite delegate running with ArmNN acceleration.
 
-Refer to the `1 variable regression model.ipynb` notebook on how to build this model yourself.
+Refer to the `1_variable_regression_model.ipynb` notebook on how to build this model yourself.
 
 **Requirements for running the notebook:**
 
