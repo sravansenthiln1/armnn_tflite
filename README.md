@@ -26,5 +26,7 @@ Try the examples:
 
 * [Sine Model](./sine_model/) - Basic Neural network TFLite model
 
+* [Digit recognize Model](./digit_recognize/) - Digit recognization model
+
 * [Mobilenet v1 Model](./mobilenet_v1/) - Mobilenet v1 image classification model
 
