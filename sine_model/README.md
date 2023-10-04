@@ -7,10 +7,10 @@ Refer to the `1_variable_regression_model.ipynb` notebook on how to build this m
 **Requirements for running the notebook:**
 
 ```
-Numpy==1.20.0
-Tensorflow==2.6.2
-Keras==2.6.0
-Mathplotlib==3.6.0
+numpy==1.20.0
+tensorflow==2.6.2
+keras==2.6.0
+matplotlib==3.6.0
 ```
 
 ### Add symlinks for libraries
