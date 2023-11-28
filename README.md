@@ -17,7 +17,7 @@ pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_ru
 
 ### Download ArmNN libraries
 ```shell
-wget -O ArmNN-aarch64.tgz https://github.com/ARM-software/armnn/releases/download/v23.08/ArmNN-linux-aarch64.tar.gz
+wget -O ArmNN-aarch64.tgz https://github.com/ARM-software/armnn/releases/download/v23.11/ArmNN-linux-aarch64.tar.gz
 mkdir libs
 tar -xvf ArmNN-aarch64.tgz -C libs
 ```

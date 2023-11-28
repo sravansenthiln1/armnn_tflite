@@ -5,7 +5,7 @@ to showcase the working of TFLite delegate running with ArmNN acceleration.
 ### Add symlinks for libraries
 ```shell
 sudo ln ../libs/libarmnnDelegate.so.29.0 libarmnnDelegate.so.29
-sudo ln ../libs/libarmnn.so.33.0 libarmnn.so.33
+sudo ln ../libs/libarmnn.so.33.1 libarmnn.so.33
 ```
 
 ### Run the example
