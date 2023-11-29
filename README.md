@@ -7,7 +7,7 @@ sudo apt-get install python3-pip
 
 ### Install necessary python packages
 ```shell
-pip3 install numpy pillow
+pip3 install numpy pillow opencv-python
 ```
 
 ### Install the TFLite runtime interpreter
@@ -30,3 +30,4 @@ Try the examples:
 
 * [Mobilenet v1 Model](./mobilenet_v1/) - Mobilenet v1 image classification model
 
+* [YOLOv8n Model](./yolov8n/) - YOLOv8n image detection model
