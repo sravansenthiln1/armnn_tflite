@@ -23,7 +23,7 @@ BACKENDS = 'CpuAcc'
 
 # Set path to the TFLite experimental delegate Libraries
 #
-# Delegate path: 
+# Delegate path:
 DELEGATE_PATH = "../libs/libarmnnDelegate.so.29"
 
 # Set path to the TFLite model
@@ -34,13 +34,13 @@ MODEL_PATH = "./sine_model.tflite"
 armnn_delegate = tflite.load_delegate(
     library = DELEGATE_PATH,
     options = {
-        "backends":BACKENDS, 
+        "backends":BACKENDS,
         "logging-severity": "info"
     }
 )
 
 interpreter = tflite.Interpreter(
-    model_path = MODEL_PATH, 
+    model_path = MODEL_PATH,
     experimental_delegates = [armnn_delegate]
 )
 

@@ -23,7 +23,7 @@ BACKENDS = 'CpuAcc,CpuRef'
 
 # Set path to the TFLite experimental delegate Libraries
 #
-# Delegate path: 
+# Delegate path:
 DELEGATE_PATH = "./libarmnnDelegate.so.29"
 
 # Set path to the TFLite model
@@ -42,13 +42,13 @@ img = img.convert("L")
 armnn_delegate = tflite.load_delegate(
     library = DELEGATE_PATH,
     options = {
-        "backends":BACKENDS, 
+        "backends":BACKENDS,
         "logging-severity": "info"
     }
 )
 
 interpreter = tflite.Interpreter(
-    model_path = MODEL_PATH, 
+    model_path = MODEL_PATH,
     experimental_delegates = [armnn_delegate]
 )
 
