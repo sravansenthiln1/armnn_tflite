@@ -2,7 +2,7 @@
 This example uses a simple CNN model that recognizes a keyword from an audio file.
 to showcase the working of TFLite delegate running with ArmNN acceleration.
 
-Refer to the `audio_classification.ipynb` notebook on how to build this model yourself.
+Refer to the `audio_classifier_model.ipynb` notebook on how to build this model yourself.
 
 **Requirements for running the notebook:**
 
