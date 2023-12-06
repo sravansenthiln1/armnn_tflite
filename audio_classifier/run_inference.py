@@ -76,4 +76,4 @@ output_data = interpreter.get_tensor(output_details[0]["index"])
 
 prediction = np.argmax(output_data[0])
 
-print(prediction, tags[prediction])
+print(prediction, TAGS[prediction])
