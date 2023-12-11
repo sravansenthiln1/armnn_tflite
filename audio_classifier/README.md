@@ -43,9 +43,14 @@ sudo ln ../libs/libarmnnDelegate.so.29.0 libarmnnDelegate.so.29
 sudo ln ../libs/libarmnn.so.33.1 libarmnn.so.33
 ```
 
-### Run the example
+### Run the example using sample.wav audio
 ```shell
 python3 run_inference.py
+```
+
+### Run the example using microphone audio
+```shell
+python3 run_inference.py m
 ```
 
 ### Note:
