@@ -1,5 +1,5 @@
 #
-# Digit recognization model accelerated with ArmNN
+# Automatic document crop model accelerated with ArmNN
 #
 
 import numpy as np
