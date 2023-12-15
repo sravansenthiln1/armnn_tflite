@@ -41,4 +41,4 @@ tar -xvf ArmNN-aarch64.tgz -C libs
 | [Mobilenet v1 Model](./mobilenet_v1/) | Mobilenet v1 image classification model |
 | [YOLOv8n Model](./yolov8n/) | YOLOv8n image detection model |
 | [SRGAN 4x Model](./srgan/) | SRGAN 4x image resolution upscale |
-| [Auto crop Model](./srgan/) | Automatic document crop model |
+| [Auto crop Model](./auto_crop/) | Automatic document crop model |
