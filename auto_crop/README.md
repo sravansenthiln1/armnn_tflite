@@ -2,7 +2,7 @@
 This example uses a simple Convolutional Encoder-Decoder that takes a downsampled image and segments the document,
 and computes anchors to crop the document from the image to showcase the working of TFLite delegate running with ArmNN acceleration.
 
-Refer to the `auto_crop_enc_dec_model.ipynb` notebook on how to build this model yourself.
+Refer to the `auto_crop_enc_dec_lite_model.ipynb` notebook on how to build this model yourself.
 
 **Requirements for running the notebook:**
 
