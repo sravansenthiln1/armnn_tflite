@@ -24,7 +24,7 @@ BACKENDS = 'CpuAcc'
 # Set path to the TFLite experimental delegate Libraries
 #
 # Delegate path:
-DELEGATE_PATH = "../libs/libarmnnDelegate.so.29"
+DELEGATE_PATH = "./libarmnnDelegate.so.29"
 
 # Set path to the TFLite model
 #

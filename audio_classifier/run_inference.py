@@ -76,6 +76,11 @@ mel_spectrogram = librosa.feature.melspectrogram(y=scale, sr=sr, n_fft=4096, hop
 log_mel_spectrogram = librosa.power_to_db(mel_spectrogram)
 log_mel_spectrogram = np.expand_dims(log_mel_spectrogram, axis=-1)
 
+min_db = np.min(log_mel_spectrogram)
+max_db = np.max(log_mel_spectrogram)
+
+log_mel_spectrogram = (log_mel_spectrogram - min_db) / (max_db - min_db)
+
 armnn_delegate = tflite.load_delegate(
     library = DELEGATE_PATH,
     options = {

@@ -19,7 +19,7 @@ from PIL import Image
 # Set Backend variable based on preference priority
 #
 # Preferred Backends: "GpuAcc,CpuAcc,CpuRef"
-BACKENDS = 'CpuAcc,CpuRef'
+BACKENDS = 'CpuAcc'
 
 # Set path to the TFLite experimental delegate Libraries
 #

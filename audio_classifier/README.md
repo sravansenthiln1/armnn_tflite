@@ -7,7 +7,7 @@ Refer to the `audio_classifier_model.ipynb` notebook on how to build this model 
 **Requirements for running the notebook:**
 
 ```
-tensorflow==2.14.0
+tensorflow==2.15.0
 matplotlib==3.8.2
 librosa==0.10.1
 ```
@@ -24,7 +24,7 @@ You will need to have the following file structure for the dataset.
     ├── tone
     └── vim
 ```
-Each subfolder should have 5 second .wav files named in order from 0 to 19,
+Each subfolder should have 20, 5 second duration .wav files named in order from 0 to 19,
 such as edge-0.wav, edge-1.wav,... edge-19.wav
 
 This model can identify the following keywords
