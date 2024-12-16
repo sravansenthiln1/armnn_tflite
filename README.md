@@ -7,17 +7,12 @@ sudo apt-get install python3-pip
 
 ### Install necessary python packages
 ```shell
-pip3 install numpy pillow opencv-python librosa sounddevice
-```
-
-### Install the TFLite runtime interpreter
-```shell
-pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
+pip3 install numpy==1.26.2 tflite_runtime pillow opencv librosa sounddevice
 ```
 
 ### Download ArmNN libraries
 ```shell
-wget -O ArmNN-aarch64.tgz https://github.com/ARM-software/armnn/releases/download/v23.11/ArmNN-linux-aarch64.tar.gz
+wget -O ArmNN-aarch64.tgz https://github.com/ARM-software/armnn/releases/download/v24.11/ArmNN-linux-aarch64.tar.gz
 mkdir libs
 tar -xvf ArmNN-aarch64.tgz -C libs
 ```

@@ -33,8 +33,8 @@ Annotations made using labelme tool.
 
 ### Add symlinks for libraries
 ```shell
-sudo ln ../libs/libarmnnDelegate.so.29.0 libarmnnDelegate.so.29
-sudo ln ../libs/libarmnn.so.33.1 libarmnn.so.33
+sudo ln ../libs/delegate/libarmnnDelegate.so.29.1 libarmnnDelegate.so.29
+sudo ln ../libs/libarmnn.so.34.0 libarmnn.so.34
 ```
 
 ### Run the example
